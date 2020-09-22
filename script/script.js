@@ -1,7 +1,7 @@
 const row = document.querySelector('.row');
 let cardSelected = false;
 
-const cardSelect = event => {
+const cardSelect = (event) => {
 	event.preventDefault();
 	const target = event.target;
 
