@@ -401,6 +401,7 @@ template {
   border-radius: 10px;
   -webkit-clip-path: polygon(14.7% 0, 100% 0, 100% 100%, 0 100%, 0 9.7%);
   clip-path: polygon(14.7% 0, 100% 0, 100% 100%, 0 100%, 0 9.7%);
+  overflow: hidden;
 }
 
 .card__desc {
