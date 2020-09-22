@@ -1,0 +1,31 @@
+@media (max-width: 1535px)
+	.container
+		height: 100%
+@media (max-width: 1080px)
+	.row
+		flex-wrap: wrap
+	.card-wrapper
+		flex-basis: 30%
+	.card-border
+		margin: 10px
+	.container
+		&__title
+			font-size: 30px
+@media (max-width: 360px)
+	.container
+		&__title
+			font-size: 24px
+			max-width: 300px
+	.card-border
+		margin: 0
+		max-width: 296px
+	.card-border__ended
+		margin: 0
+		max-width: 296px
+	.card
+		max-width: 288px
+		&__name
+			font-size: 14px
+		&__image
+			img
+				max-width: 288px
